@@ -1,7 +1,7 @@
-# _
-# _name
+# _ 不重要的命名
+# _name 希望他是private
 # name_ 為了避開相同命名
-# __name
+# __name 為了觸發避免撞名的功能，要python自動改名時使用
 # __name__ python預留的function名
 
 for _ in range(10): # _此處代表i的意思，也意指不重要以後用不到所以不用特意命名
