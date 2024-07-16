@@ -6,7 +6,7 @@ class Product:
     def __str__(self):
         # return self.name + ' $' + str(self.price)
         return f'{self.name}  ${self.price}'
-    print("珍珠奶茶", 60)
+    # print("珍珠奶茶", 60)
 
     def __repr__(self):
         return f'<Product({self.name}, {self.price})>'
@@ -27,8 +27,13 @@ class Product:
     
 p1 = Product('珍珠奶茶', 60)
 p2 = Product('義大利麵', 220)
-print(repr(p1))
+
 p1 + '白玉'
-print(p1)
-print(p1 + p1)
-print(p1 *5)
+
+
+
+if __name__ == '__main__':
+    print(repr(p1))
+    print(p1)
+    print(p1 + p1)
+    print(p1 *5)
