@@ -28,3 +28,7 @@ y = 3.14
 
 #python3.6之後才有的
 print(f'hi {name}, my number is {x}')
+print(f'hi {name:>10}, my number is {x}') # 往右對齊10個字元 # hi      Allen, my number is 5
+print(f'hi {name:<10}, my number is {x}') # 往左對齊10個字元 # hi Allen     , my number is 5
+
+
